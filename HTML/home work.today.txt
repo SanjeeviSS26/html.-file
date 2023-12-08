@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <center><h2>APPILCATION</h2></center>
+        <form>
+        <label>Name:</label>
+        <input type="text" required><br>
+        <label>Father's Name:</label>
+        <input type="text" required><br>
+        <label>Mother's Name:</label>
+        <input type="text" required><br>
+        <label>Address:</label>
+        <textarea rows="3" cols="30" required></textarea>
+        <label>DOB:</label>
+        <input type="date" required><br>
+        <label>Phone Number:</label>
+        <input type="telephone" required><br>
+        <label>Email:</label>
+        <input type="email" required><br>
+        <label>Passport Pic:</label>
+        <input type="image" required><br>
+        <label>Alternate No:</label>
+        <input type="telephone" required><br>
+        <label>Gender:</label>
+        <input type="radio" required>Female
+        <input type="radio" required>Male<br>
+        <label>Course:</label>
+        <ul>
+            <li type="none">
+        <input type="checkbox" required>HTML<br>
+        <input type="checkbox" required>JAVA<br>
+        <input type="checkbox" required>PYTHON<br>
+    </li>
+    </ul>
+    <label>Department:</label>
+    <input list="department">
+    <datalist id="department">
+        <option value="ECE" required></option>
+        <option value="EEE" required></option>
+        <option value ="CS" required></option>
+    </datalist><br><br>
+    <label>Favourite Color:</label>
+    <input type="color"><br>
+    <label>Known Language:</label>
+    <input type="checkbox">Tamil
+    <input type="checkbox">English
+    <input type="checkbox">Malayalam
+    <input type="checkbox">Others<br>
+    <label>Height:</label>
+    <input type="range" min="0" max="300"><br>
+    <label>Certificate:</label>
+    <input type="file"><br>
+    <input type="Submit">
+    <input type="Reset">
+    <input type="Submit" value="Ok">
+    </form>
+    </body>
+</html>
